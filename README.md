@@ -38,13 +38,9 @@ This project uses **web scraping, data cleaning, and logistic regression modelin
 
 Example simulation formula:
 
-\[
-\text{logit} = 0.12 \cdot PPG\_diff + 0.08 \cdot DEF\_diff + 4 \cdot FG\_diff + 4 \cdot FG3\_diff + 3 \cdot FT\_diff
-\]
+logit = 0.12 * PPG_diff + 0.08 * DEF_diff + 4 * FG_diff + 4 * FG3_diff + 3 * FT_diff
 
-\[
-\text{probability of Team A winning} = \frac{1}{1 + e^{-\text{logit}}}
-\]
+probability of Team A winning = 1 / (1 + exp(-logit))
 
 ---
 
